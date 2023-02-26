@@ -107,8 +107,5 @@ $(() => {
     $
     $('.nav').css('cursor', 'pointer')
     
-    $('#close').on('click', function(ev) {
-        $('mov').src += "&autoplay=1"
-        ev.preventDefault()
-    })
+    
 })
