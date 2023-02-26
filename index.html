@@ -2,80 +2,97 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Ben Savary Resume</title>
+        <link rel="stylesheet" href="style.css">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8"></script>
         <script src="app.js" charset="utf-8"></script>
-        <link rel="stylesheet" href="app.css">
+        
     </head>
     <body>
-        <div id="header">
-            <header>
-                <div id="name">
-                    <h1>Ben Savary</h1>
-                </div>
-                <div class="btns">
-                    <div>
-                        <h1 id="home">home</h1>
-                    </div>
-                    <div>
-                        <h1 id="bio">bio</h1>
-                    </div>
-                    <div>
-                        <h1 id="resume">resume</h1>
-                    </div>
-                    <div>
-                        <h1 id="projects">projects</h1>
-                    </div>
-                </div>
-            </header>
-        <div id="window">
-            <video id="mov"src=""></video>
-            <div class="pages" id="home">
+        <header>
+            <div id="ul">   
+                <li class="links"><a href="https://www.linkedin.com/in/robertsavary/" target="_blank"><img class="connect" id="linkedin" src="LI-Logo.png"></a></li>
+                <li class="links"><a href="https://github.com/rbsavary" target="_blank"><img class="connect" id="git" src="GitHub_Logo_White.png"></a></li>
+                <li class="links"><a href="rbsavary88@gmail.com" target="_blank"><img class="connect" id="google" src="Gmail_Logo_32px.png"></a></li>
+            </div>
+            <div id="name">
+                <h1>Ben Savary</h1>
+            </div>     
+        </header>
+        <nav>
+            <div id="home">
+                <span><a class="nav" id="home-btn" href="#">home</a></span>
+            
+            <div class="pages" id="home-page">
                 <div id="text-box">
-                    <h1 id="hello">Hello world!</h1>
-                    <h2 class="">I'm Ben Savary, software developer and entrepeneur</h2>
-                    <h2>helping to lead the world you into the future.</h2>
+                    <h1>Hello there!</h1>
+                    <h2>I'm Ben Savary, software developer and entrepeneur</h2>
+                    <h2>helping to lead the world into the future.</h2>
                     <h2>It's nice to meet you.</h2>
                 </div>
+                <button><a class="btns" id="close" href="#">close</a></button>
             </div>
-            <div class="pages" id="bio">
+        </div>
+            <div id="bio">
+                <span><a class="nav" id="bio-btn" href="#">bio</a></span>
+            </div>
+            <div class="pages" id="bio-page">
                 <h1>Bio</h1>
+                
                 <div class="carousel-container">
-                    <div class="btns" id="previous-btn">
-                        <span></span>
+                    <div class="carousel-btn back">
+                        <button><a class="btns" id="back" href="#">back</a></button>
                     </div>
+
                     <div class="carousel-imgs">
-                        <img src="" alt="">
+                        <img src="ben high res 1.jpg" alt="">
+                        <img src="IMG_7424.jpg" alt="">
+                        <img src="SportsPhotos_Hoboken CC 2022-10664.jpg" alt="">
+                        <img src="IMG_20221214_162608_01.jpg" alt="">
+                        <img src="7445583912298821275.jpg" alt="">
                     </div>
-                    <div class="carousel-imgs">
-                        <img src="" alt="">
+                
+                    <div class="carousel-btn next">
+                        <button><a class="btns" id="next" href="#">next</a></button>
                     </div>
-                    <div class="carousel-imgs">
-                        <img src="" alt="">
-                    </div>
-                    <div class="carousel-imgs">
-                        <img src="" alt="">
-                    </div>
-                    <div class="btns" id="next-btn">
-                        <span></span>
-                    </div>
+                </div>
+                <div id="bio-text">
+                    <p>I am a fitness enthusiast and am passionate about being healthy and staying active. I enjoy weight lifting in the gym, training Muay Thai kick boxing and running. I also love spending time with my furry friend, Milo, hiking and taking long walks together.</p>
+                    <p>As a software engineer and entrepreneur, I am driven by a desire to create innovative solutions that make a positive impact people on the world. I am passionate about using technology to solve real-world problems to make our lives better.</p>
+                    <p>I am always looking for ways to innovate and push the boundaries of what's possible, and I thrive in dynamic, fast-paced environments where I can put my entrepreneurial spirit to work.</p>     
+                    <p>Above all, I am committed to using my skills and expertise to make a positive impact on the world. Whether it's through developing software that helps people live healthier, more fulfilling lives or building tools that enable entrepreneurs to bring their ideas to life, I am passionate about making a difference and empowering others to do the same.</p>
                 </div>
                 <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis reiciendis eius exercitationem sint soluta veritatis facere dolores quod ratione aspernatur, unde molestias, recusandae necessitatibus odit? Omnis mollitia amet repellat animi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum soluta velit dolores ipsum hic, fugit eos dolorem rem perferendis dolore laudantium atque? Placeat qui cupiditate dignissimos minus ex delectus voluptatem?</p>
+                    <button><a class="btns" id="close1" href="#">close</a></button>
                 </div>
+            </div>
+            <div id="resume">
+                <span><a class="nav" id="resume-btn" href="#">resume</a></span>
             </div>
             <div class="pages" id="resume-page">
                 <h1>Resume</h1>
-                <div id="resume">
-                    <img src="" alt="Ben Savary resume">
+                <div >
+                    <img id="resume-img" src="Robert Savary Resume.jpg" alt="Ben Savary resume">
                 </div>
+                <button><a class="btns" id="close2" href="#">close</a></button>
             </div>
-            <div class="pages" id="projects">
+            <div id="projects">
+                <span><a class="nav" id="projects-btn" href="#">projects</a></span>
+            </div>
+            <div class="pages" id="projects-page">
                 <h1>Projects</h1>
                 <div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptate. Quia, ex commodi aperiam suscipit eveniet mollitia, hic sunt ipsum nam repellat maxime nemo! Harum obcaecati officiis veritatis nobis quibusdam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident minima minus incidunt quibusdam architecto cum, cumque odio. Dolores nostrum autem, minus a quidem maxime assumenda fugit quisquam adipisci! Delectus, quasi?</p>
                 </div>
+                <div>
+                <button><a class="btns" id="close3" href="#">close</a></button>
             </div>
+        </nav>
+        <div >
+            <a id="mov-box" href="#">
+                <video id="mov" src="AdobeStock_543750160.mov" muted controls>
+            </a> 
         </div>
+    </video>
     </body>
 </html>

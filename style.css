@@ -1,0 +1,104 @@
+/* styles body */
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* styles nav bar */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.btns {
+    text-decoration: none;
+    color: black;
+}
+/* styles modal pages class */
+.pages {
+    
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+	display: none;
+    /* flex-direction: column; */
+    margin: auto;
+    line-height: 120%;
+    padding: 2%;
+    /* display: flex;
+    
+	height: auto;
+	border-radius: 2px;
+	
+	
+	
+    border-style: solid; */
+}
+/* styles home modal to display centered over mov after clicked*/
+#home-page {
+    display: block;
+    justify-content: center;
+}
+.nav {
+    color: whitesmoke;
+    text-decoration: none;
+}
+#mov {
+    position: absolute;
+    top: 150px;
+    margin: auto;
+    width: 1220px;
+    height: auto;
+    z-index: -1;
+}
+#bio-page {
+    display: none;
+    flex-direction: column;   
+}
+#resume-page {
+    display: none;
+}
+#resume-img {
+    width: 700px;
+    height: auto;
+}
+#projects-page {
+    display: none;
+}
+/* styles imgs width */
+img {
+    width: 150px;
+}
+/* styles carousel in bio */
+.carousel-container {
+	width: 70%;
+	display: flex;
+}
+/* styles imgs */
+/* .carousel-imgs {
+    width: 80%;
+    box-sizing: border-box;
+    height: auto;
+} */
+.carousel-imgs img {
+	width: 100%;
+	border-radius: 10px;
+	display: none;
+}
+.carousel-imgs img:first-of-type {
+    display: flex;
+}
+#ul {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.links {
+    display: inline;
+    float: right;
+}
+.connect {
+    height: 32px;
+    width: auto;
+
+}
