@@ -5,13 +5,13 @@ Features
 Responsive design that looks great on any device
 Clear and concise layout that highlights my key qualifications and experience
 Interactive elements, including clickable links and image carousel
-Email button for users to get in touch with me directly
+Contact buttons for users to get in touch with me
 
 Installation
 This website does not require any installation - simply navigate to the URL in your web browser to access it.
 
 Usage
-To use the website, simply scroll through the various sections to learn more about my qualifications and experience. Click on any clickable links to be taken to external websites or documents. Use the email button to get in touch with me directly.
+To use the website, simply scroll through the various sections to learn more about my qualifications and experience. Click on any clickable links to be taken to external websites or documents.
 
 Support
 If you have any questions or issues while using the website, please feel free to contact me directly at rbsavary88@gmail.com.
