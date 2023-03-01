@@ -1,6 +1,5 @@
 // Bio carousel
-// let currentImgIndex = 0
-// const numOfImages = $('.carousel-imgs').children().length - 1
+
 $(() => {
     let currentImgIndex = 0
     const numOfImages = $('.carousel-imgs').children().length - 1
@@ -101,14 +100,6 @@ $(() => {
     }
     $closeBtn3.on('click', closePage3)
     
-    const $playMov = $('mov-box')
-    .on()
-    const $openPage = $('nav')
-    $
     $('.nav').css('cursor', 'pointer')
     
-    $('#close').on('click', function(ev) {
-        $('mov').src += "&autoplay=1"
-        ev.preventDefault()
-    })
 })
