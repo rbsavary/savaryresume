@@ -1,4 +1,4 @@
-// Bio carousel
+// bio carousel
 
 $(() => {
     let currentImgIndex = 0
@@ -19,8 +19,8 @@ $(() => {
                 currentImgIndex--
             }
             $('.carousel-imgs').children().eq(currentImgIndex).css('display', 'flex')
-
     })
+
 // home page button
 
     const $openBtn = $('#home-btn');
@@ -41,7 +41,6 @@ $(() => {
     }
     $closeBtn.on('click', closePage)
     
-
 // bio page button
     
     const $openBtn1 = $('#bio-btn');
@@ -51,7 +50,7 @@ $(() => {
     const $closeBtn1 = $('#close1');
 
     const openPage1 = ()=>{
-        $modal1.css('display', 'flex')
+        $modal1.css('display', 'block')
     }
     $openBtn1.on('click', openPage1)
 
@@ -61,6 +60,7 @@ $(() => {
 
     }
     $closeBtn1.on('click', closePage1)
+
 // resume page button
 
     const $openBtn2 = $('#resume-btn');
@@ -80,6 +80,7 @@ $(() => {
 
     }
     $closeBtn2.on('click', closePage2)
+
 // project page button
 
     const $openBtn3 = $('#projects-btn');
@@ -99,7 +100,8 @@ $(() => {
 
     }
     $closeBtn3.on('click', closePage3)
-    
+
+    // nav pointer   
     $('.nav').css('cursor', 'pointer')
     
 })
